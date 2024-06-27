@@ -25,3 +25,15 @@ Grid 2 is constructed by spelling out the key and then filling in the remaining 
 | 3 | D | E | F | G | K |
 | 4 | L | M | N | P | Q |
 | 5 | S | U | V | X | Z |
+
+##Encoding
+
+Let us take the word "CRYPT" to encode. 
+
+Step 1: The word is split into alternating groups of digits according to the key. Since the key is 32, "CRYPT" is split into "CRY","PT". 
+
+Step 2: The groups are reversed and rejoined. "CRY","PT" becomes "YRC", "TP" and then "YRCTP".
+
+Step 3: Each letter is located on grid 1 and replaced by the letter occupying its corresponding position in grid 2. "Y" is in position (4,5) in grid 1. Thus it is replaced by the letter Q as it is located in position (4,5) in grid 2. Thus, "YRCTP" becomes "QBDPV".
+
+
