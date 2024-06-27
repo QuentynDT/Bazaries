@@ -26,7 +26,7 @@ Grid 2 is constructed by spelling out the key and then filling in the remaining 
 | 4 | L | M | N | P | Q |
 | 5 | S | U | V | X | Z |
 
-##Encoding
+## Encoding
 
 Let us take the word "CRYPT" to encode. 
 
@@ -36,7 +36,7 @@ Step 2: The groups are reversed and rejoined. "CRY", "PT" becomes "YRC", "TP" an
 
 Step 3: Each letter is located on grid 1 and replaced by the letter occupying its corresponding position in grid 2. "Y" is in position (4,5) in grid 1. Thus it is replaced by the letter Q as it is located in position (4,5) in grid 2. Thus, "YRCTP" becomes "QBDPV". "QBDPV" is the encoded string. 
 
-##Decoding
+## Decoding
 
 Let us take the word "QBDPV" to decode. To decode a work, the key must be known. Once the key is known, both grids can be constructed. 
 
