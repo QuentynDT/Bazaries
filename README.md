@@ -34,6 +34,18 @@ Step 1: The word is split into alternating groups of digits according to the key
 
 Step 2: The groups are reversed and rejoined. "CRY", "PT" becomes "YRC", "TP" and then "YRCTP".
 
-Step 3: Each letter is located on grid 1 and replaced by the letter occupying its corresponding position in grid 2. "Y" is in position (4,5) in grid 1. Thus it is replaced by the letter Q as it is located in position (4,5) in grid 2. Thus, "YRCTP" becomes "QBDPV".
+Step 3: Each letter is located on grid 1 and replaced by the letter occupying its corresponding position in grid 2. "Y" is in position (4,5) in grid 1. Thus it is replaced by the letter Q as it is located in position (4,5) in grid 2. Thus, "YRCTP" becomes "QBDPV". "QBDPV" is the encoded string. 
+
+##Decoding
+
+Let us take the word "QBDPV" to decode. To decode a work, the key must be known. Once the key is known, both grids can be constructed. 
+
+Step 1: The word is split into alternating groups of digits according to the key. Since the key is 32, "QBDPV" is split into "QBD", "PV". 
+
+Step 2: The groups are reversed and rejoined. "QBD", "PV" becomes "DBQ", "VP" and then"DBQVP".
+
+Step 3: Each letter is located on grid 2 and replaced by the letter occupying its corresponding position in grid 1. "D" is in position (3,1) in grid 2. Thus it is replaced by the letter C as it is located in position (3,1) in grid 1. Thus, "DBQVP" becomes "CRYPT". "CRYPT" is the decoded string.
+
+
 
 
